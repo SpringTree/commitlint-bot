@@ -11,7 +11,7 @@
 // These secrets can be found in our password vault and never be in git
 //
 // Deploy with command:
-// gcloud functions deploy commitlint --env-vars-file .env.yaml
+// gcloud functions deploy commitlint --env-vars-file .env.yaml --trigger-http --runtime nodejs8
 //
 const { serverless } = require('@probot/serverless-gcf')
 const appFn = require('./')
