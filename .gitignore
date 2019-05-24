@@ -64,3 +64,4 @@ typings/
 
 # GCF Config file
 .env.yaml
+*.pem
