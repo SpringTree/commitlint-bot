@@ -26,6 +26,7 @@
   ],
   "dependencies": {
     "@commitlint/core": "^4.3.0",
+    "@probot/serverless-gcf": "^0.2.0",
     "probot": "^6.2.1"
   },
   "devDependencies": {
