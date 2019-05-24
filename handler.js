@@ -14,5 +14,5 @@
 // gcloud functions deploy commitlint --env-vars-file .env.yaml --trigger-http --runtime nodejs8
 //
 const { serverless } = require('@probot/serverless-gcf')
-const appFn = require('./')
+const appFn = require('./index.js')
 module.exports.commitlint = serverless(appFn)
