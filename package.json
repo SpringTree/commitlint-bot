@@ -17,7 +17,8 @@
   "scripts": {
     "start": "probot run ./index.js",
     "test": "jest",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "deploy:gcf": "gcloud functions deploy commitlint --env-vars-file .env.yaml --trigger-http --runtime nodejs8"
   },
   "files": [
     "lib",
