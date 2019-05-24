@@ -25,14 +25,14 @@
     "README.md"
   ],
   "dependencies": {
-    "@commitlint/core": "^4.3.0",
+    "@commitlint/core": "^7.6.1",
     "@probot/serverless-gcf": "^0.2.0",
-    "probot": "^6.2.1"
+    "probot": "^9.2.12"
   },
   "devDependencies": {
-    "jest": "^22.1.4",
-    "semantic-release": "^8.2.0",
-    "smee-client": "^1.0.1"
+    "jest": "^24.8.0",
+    "semantic-release": "^15.13.14",
+    "smee-client": "^1.1.0"
   },
   "engines": {
     "node": "8.x",
